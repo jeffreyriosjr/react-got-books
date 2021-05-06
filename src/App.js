@@ -1,11 +1,16 @@
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppRouter from './routers/AppRouters';
 import './App.css';
 
+
 function App() {
+
   return (
-    <div className="App">
-      <h1>Game of Thrones</h1>
-    </div>
-  );
+    <Router>
+      <AppRouter />
+    </Router>
+  )
 }
 
 export default App;

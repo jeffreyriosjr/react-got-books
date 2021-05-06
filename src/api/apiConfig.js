@@ -1,11 +1,11 @@
-import axios from 'axios';
+// import axios from 'axios';
 
-const instance = axios.create({
-    baseURL: "https://www.anapioficeandfire.com/api/books",
-    headers: {
-        "Content-type": "application/json",
-    }
-});
+// const instance = axios.create({
+//     baseURL: "https://www.anapioficeandfire.com/api/books",
+//     headers: {
+//         "Content-type": "application/json",
+//     }
+// });
 
-export default instance;
+// export default instance;
 
